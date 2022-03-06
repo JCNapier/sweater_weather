@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe HourlyWeather do
-  let(:weather) {WeatherFacade.hourly_weather("Denver,CO")}
+  let(:weather) {WeatherFacade.hourly_weather("Denver,CO")[0]}
 
   it 'attributes' do 
     expect(weather.time).to be_a(String)

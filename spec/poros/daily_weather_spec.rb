@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe DailyWeather do
-  let(:weather) {WeatherFacade.daily_weather("Denver,CO")}
+  let(:weather) {WeatherFacade.daily_weather("Denver,CO")[0]}
 
   it 'attributes' do 
     expect(weather.date).to be_a(String)
