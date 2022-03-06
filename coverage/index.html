@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2022-03-06T14:33:23-07:00">2022-03-06T14:33:23-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2022-03-06T14:41:15-07:00">2022-03-06T14:41:15-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -23,14 +23,14 @@
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
       <span class="green">
-  98.03%
+  98.04%
 </span>
 
      </span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         2.98
+         2.97
        </span>
     </span> hits/line
     )
@@ -43,11 +43,11 @@
   </div>
 
   <div class="t-line-summary">
-    <b>355</b> relevant lines,
-    <span class="green"><b>348</b> lines covered</span> and
+    <b>357</b> relevant lines,
+    <span class="green"><b>350</b> lines covered</span> and
     <span class="red"><b>7</b> lines missed. </span>
     (<span class="green">
-  98.03%
+  98.04%
 </span>
 )
   </div>
@@ -535,9 +535,9 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#e10ca184a62b7bf070511629f4f0a896db6ac7f0" class="src_link" title="spec/requests/api/v1/sessions_request_spec.rb">spec/requests/api/v1/sessions_request_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">30</td>
-            <td class="cell--number">15</td>
-            <td class="cell--number">15</td>
+            <td class="cell--number">31</td>
+            <td class="cell--number">16</td>
+            <td class="cell--number">16</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -557,9 +557,9 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#5caa6030475850f4f5ff625202f353793049c1cf" class="src_link" title="spec/requests/api/v1/user_request_spec.rb">spec/requests/api/v1/user_request_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">24</td>
-            <td class="cell--number">13</td>
-            <td class="cell--number">13</td>
+            <td class="cell--number">25</td>
+            <td class="cell--number">14</td>
+            <td class="cell--number">14</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -8443,8 +8443,8 @@
     
 
     <div class="t-line-summary">
-      <b>15</b> relevant lines.
-      <span class="green"><b>15</b> lines covered</span> and
+      <b>16</b> relevant lines.
+      <span class="green"><b>16</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -8517,7 +8517,7 @@
 
             
 
-            <code class="ruby">      &quot;email&quot;: &quot;bass@gmail.com&quot;,</code>
+            <code class="ruby">      &quot;email&quot;: &quot;ThePurpleBass@gmail.com&quot;,</code>
           </li>
         </div>
       
@@ -8605,7 +8605,7 @@
 
             
 
-            <code class="ruby">      &quot;email&quot;: &quot;bass@gmail.com&quot;,</code>
+            <code class="ruby">      &quot;email&quot;: &quot;ThePurpleBass@gmail.com&quot;,</code>
           </li>
         </div>
       
@@ -8704,7 +8704,7 @@
 
             
 
-            <code class="ruby">    expect(user_json).to be_a(Hash)</code>
+            <code class="ruby">    expect(response.status).to eq(201)</code>
           </li>
         </div>
       
@@ -8715,7 +8715,7 @@
 
             
 
-            <code class="ruby">    expect(user_json[:data][:id]).to be_a(String)</code>
+            <code class="ruby">    expect(user_json).to be_a(Hash)</code>
           </li>
         </div>
       
@@ -8726,7 +8726,7 @@
 
             
 
-            <code class="ruby">    expect(user_json[:data][:type]).to be_a(String)</code>
+            <code class="ruby">    expect(user_json[:data][:id]).to be_a(String)</code>
           </li>
         </div>
       
@@ -8737,7 +8737,7 @@
 
             
 
-            <code class="ruby">    expect(user_json[:data][:attributes]).to be_a(Hash)</code>
+            <code class="ruby">    expect(user_json[:data][:type]).to be_a(String)</code>
           </li>
         </div>
       
@@ -8748,7 +8748,7 @@
 
             
 
-            <code class="ruby">    expect(user_json[:data][:attributes][:email]).to be_a(String)</code>
+            <code class="ruby">    expect(user_json[:data][:attributes]).to be_a(Hash)</code>
           </li>
         </div>
       
@@ -8759,12 +8759,23 @@
 
             
 
+            <code class="ruby">    expect(user_json[:data][:attributes][:email]).to be_a(String)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="29">
+            <span class="hits">1</span>
+            
+
+            
+
             <code class="ruby">    expect(user_json[:data][:attributes][:api_key]).to be_a(String)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="29">
+          <li class="never" data-hits="" data-linenumber="30">
             
             
 
@@ -8775,7 +8786,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="30">
+          <li class="never" data-hits="" data-linenumber="31">
             
             
 
@@ -9055,8 +9066,8 @@
     
 
     <div class="t-line-summary">
-      <b>13</b> relevant lines.
-      <span class="green"><b>13</b> lines covered</span> and
+      <b>14</b> relevant lines.
+      <span class="green"><b>14</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -9233,7 +9244,18 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="16">
+          <li class="covered" data-hits="1" data-linenumber="16">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(response.status).to eq(201)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="17">
             
             
 
@@ -9244,7 +9266,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="17">
+          <li class="covered" data-hits="1" data-linenumber="18">
             <span class="hits">1</span>
             
 
@@ -9255,7 +9277,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="18">
+          <li class="covered" data-hits="1" data-linenumber="19">
             <span class="hits">1</span>
             
 
@@ -9266,7 +9288,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="19">
+          <li class="covered" data-hits="1" data-linenumber="20">
             <span class="hits">1</span>
             
 
@@ -9277,7 +9299,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="20">
+          <li class="covered" data-hits="1" data-linenumber="21">
             <span class="hits">1</span>
             
 
@@ -9288,7 +9310,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="21">
+          <li class="covered" data-hits="1" data-linenumber="22">
             <span class="hits">1</span>
             
 
@@ -9299,7 +9321,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="22">
+          <li class="covered" data-hits="1" data-linenumber="23">
             <span class="hits">1</span>
             
 
@@ -9310,7 +9332,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="23">
+          <li class="never" data-hits="" data-linenumber="24">
             
             
 
@@ -9321,7 +9343,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="24">
+          <li class="never" data-hits="" data-linenumber="25">
             
             
 
