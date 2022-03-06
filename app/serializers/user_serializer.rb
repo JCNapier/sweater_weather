@@ -3,5 +3,5 @@ class UserSerializer
 
   set_type "users"
 
-  attributes :email
+  attributes :email, :api_key
 end

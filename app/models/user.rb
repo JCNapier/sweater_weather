@@ -6,20 +6,13 @@ class User < ApplicationRecord
     :presence => {message: "can't be blank"}
 
   has_secure_password
-  has_secure_token :auth_token
+  has_secure_token :api_key
 
-  before_create :set_access_token
+  before_create :set_api_key
 
   private 
 
-  def set_access_token
-    self.auth_token = generate_token 
-  end
-
-  def generate_token 
-    loop do 
-      token = SecureRandom.hex(10)
-      break token unless User.where(auth_token: token).exists?
-    end
+  def set_api_key
+    self.api_key = SecureRandom.hex(10)
   end
 end
