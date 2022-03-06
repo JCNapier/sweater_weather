@@ -1,10 +1,6 @@
 class WeatherFacade 
   def self.all_weather(location)
-    current = current_weather(location)
-    daily = daily_weather(location)
-    hourly = hourly_weather(location)
-
-    Forecast.new(current, daily, hourly)
+    Forecast.new(current_weather(location), daily_weather(location), hourly_weather(location))
   end
 
   def self.current_weather(location)
@@ -17,14 +13,20 @@ class WeatherFacade
   def self.daily_weather(location)
     coords = MapQuestFacade.lat_long(location)
     data = WeatherService.current_weather(coords[:lat], coords[:lng])
+    days = data[:daily][0..4]
 
-    DailyWeather.new(data[:daily][0])
+    days.map do |day|
+      DailyWeather.new(day)
+    end
   end
 
   def self.hourly_weather(location)
     coords = MapQuestFacade.lat_long(location)
     data = WeatherService.current_weather(coords[:lat], coords[:lng])
-  
-    HourlyWeather.new(data[:hourly][0])
+    hours = data[:hourly][0..7]
+
+    hours.map do |hour|
+      HourlyWeather.new(hour)
+    end
   end
 end

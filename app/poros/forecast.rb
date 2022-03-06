@@ -1,13 +1,13 @@
 class Forecast 
   attr_reader :id,
-              :current, 
-              :daily, 
-              :hourly 
+              :current_weather, 
+              :daily_weather, 
+              :hourly_weather 
               
   def initialize(current, daily, hourly)
     @id      = nil
-    @current = current 
-    @daily   = daily 
-    @hourly  = hourly 
+    @current_weather = current 
+    @daily_weather   = daily 
+    @hourly_weather  = hourly 
   end
 end
