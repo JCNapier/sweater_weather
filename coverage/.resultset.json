@@ -203,7 +203,7 @@
           null,
           null,
           1,
-          1,
+          2,
           null,
           null,
           null,
@@ -227,6 +227,7 @@
           1,
           null,
           null,
+          1,
           1,
           1,
           1,
@@ -265,8 +266,51 @@
           1,
           null
         ]
+      },
+      "/Users/johnnapier/Turing/mod3/projects/sweater_weather/app/controllers/api/v1/sessions_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          0,
+          null,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          1,
+          4,
+          null,
+          null
+        ]
+      },
+      "/Users/johnnapier/Turing/mod3/projects/sweater_weather/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/johnnapier/Turing/mod3/projects/sweater_weather/app/serializers/user_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null
+        ]
       }
     },
-    "timestamp": 1646601421
+    "timestamp": 1646602286
   }
 }
