@@ -6,7 +6,7 @@ class Api::V1::UsersController < ApplicationController
     if user.password != user.password_confirmation
       render json: { status: 400, message: "Passwords Do Not Match" }
     elsif User.find_by(email: user[:email]).present?
-      render json: { status: 400, message: "Email Already Exists To Active Account" }
+      render json: { status: 400, message: "Email Already Exists" }
     else 
       user.save 
       render json:(UserSerializer.new(user)), status: :created

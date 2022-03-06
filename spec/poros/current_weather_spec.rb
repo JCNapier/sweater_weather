@@ -10,7 +10,7 @@ RSpec.describe CurrentWeather do
     expect(weather.temperature).to be_a(Float)
     expect(weather.feels_like).to be_a(Float)
     expect(weather.humidity).to be_an(Integer)
-    expect(weather.uvi).to be_a(Integer)
+    expect(weather.uvi).to be_a(Float)
     expect(weather.visibility).to be_an(Integer)
     expect(weather.conditions).to be_a(String)
     expect(weather.icon).to be_a(String)
