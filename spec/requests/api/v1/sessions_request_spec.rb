@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe 'sessions creation' do
   it 'successfully creates a session' do 
     user_data = {
-      "email": "bass@gmail.com",
+      "email": "ThePurpleBass@gmail.com",
       "password": "password123",
       "password_confirmation": "password123"
     }
@@ -11,7 +11,7 @@ RSpec.describe 'sessions creation' do
     User.create!(user_data)
 
     user_login = {
-      "email": "bass@gmail.com",
+      "email": "ThePurpleBass@gmail.com",
       "password": "password123"
     }
 
@@ -20,6 +20,7 @@ RSpec.describe 'sessions creation' do
     user_json = JSON.parse(response.body, symbolize_names: true)
     
     expect(response).to be_successful
+    expect(response.status).to eq(201)
     expect(user_json).to be_a(Hash)
     expect(user_json[:data][:id]).to be_a(String)
     expect(user_json[:data][:type]).to be_a(String)
