@@ -232,6 +232,7 @@
           1,
           1,
           1,
+          1,
           null,
           null,
           null
@@ -389,7 +390,7 @@
           1,
           null,
           1,
-          2,
+          3,
           null,
           null
         ]
@@ -598,6 +599,40 @@
           null
         ]
       },
+      "/Users/johnnapier/Turing/mod3/projects/sweater_weather/spec/requests/api/v1/sessions_request_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/johnnapier/Turing/mod3/projects/sweater_weather/spec/requests/api/v1/unsplash_request_spec.rb": {
         "lines": [
           1,
@@ -622,7 +657,7 @@
           null
         ]
       },
-      "/Users/johnnapier/Turing/mod3/projects/sweater_weather/spec/requests/api/v1/users/user_create_spec.rb": {
+      "/Users/johnnapier/Turing/mod3/projects/sweater_weather/spec/requests/api/v1/user_request_spec.rb": {
         "lines": [
           1,
           null,
@@ -731,6 +766,49 @@
           null
         ]
       },
+      "/Users/johnnapier/Turing/mod3/projects/sweater_weather/app/controllers/api/v1/sessions_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          0,
+          null,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          1,
+          4,
+          null,
+          null
+        ]
+      },
+      "/Users/johnnapier/Turing/mod3/projects/sweater_weather/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/johnnapier/Turing/mod3/projects/sweater_weather/app/serializers/user_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null
+        ]
+      },
       "/Users/johnnapier/Turing/mod3/projects/sweater_weather/app/controllers/api/v1/backgrounds_controller.rb": {
         "lines": [
           1,
@@ -739,12 +817,6 @@
           null,
           1,
           null,
-          null
-        ]
-      },
-      "/Users/johnnapier/Turing/mod3/projects/sweater_weather/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
           null
         ]
       },
@@ -784,17 +856,6 @@
           null
         ]
       },
-      "/Users/johnnapier/Turing/mod3/projects/sweater_weather/app/serializers/user_serializer.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null
-        ]
-      },
       "/Users/johnnapier/Turing/mod3/projects/sweater_weather/app/controllers/api/v1/forecast_controller.rb": {
         "lines": [
           1,
@@ -819,6 +880,6 @@
         ]
       }
     },
-    "timestamp": 1646598692
+    "timestamp": 1646602403
   }
 }
