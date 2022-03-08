@@ -6,7 +6,7 @@ class WeatherFacade
   def self.current_weather(location)
     coords = MapQuestFacade.lat_long(location)
     data = WeatherService.current_weather(coords[:lat], coords[:lng])
-
+    
     CurrentWeather.new(data[:current])    
   end
 

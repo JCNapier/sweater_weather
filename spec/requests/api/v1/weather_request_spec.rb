@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'weather API requests' do
-  it 'returns a forecast' do 
+  it 'returns a forecast', :vcr do 
     get '/api/v1/forecast?location=denver,Co'
     
     expect(response.status).to eq(200)
