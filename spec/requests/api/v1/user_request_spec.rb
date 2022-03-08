@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'Creating a User' do
-  it 'successfully creates a user' do 
+  it 'successfully creates a user', :vcr do 
     user_params = { 
       "email": "johnthefisherman@gmail.com",
       "password": "ToTheMoon",

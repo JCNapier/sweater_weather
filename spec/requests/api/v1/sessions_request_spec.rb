@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'sessions creation' do
-  it 'successfully creates a session' do 
+  it 'successfully creates a session', :vcr do 
     user_data = {
       "email": "ThePurpleBass@gmail.com",
       "password": "password123",
