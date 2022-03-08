@@ -5,19 +5,37 @@
         "lines": [
           1,
           1,
-          1,
-          1,
+          14,
+          14,
           null,
-          1,
-          1,
+          14,
+          14,
           null,
-          1,
+          14,
           null,
           null
         ]
       },
       "/Users/johnnapier/Turing/mod3/projects/sweater_weather/app/facades/roadtrip_facade.rb": {
         "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
           1,
           1,
           null,
@@ -30,9 +48,9 @@
         "lines": [
           1,
           1,
-          0,
+          2,
           null,
-          0,
+          2,
           null,
           null
         ]
@@ -41,33 +59,33 @@
         "lines": [
           1,
           1,
-          0,
+          2,
           null,
           null,
           1,
-          0,
-          0,
+          4,
+          4,
           null,
-          0,
-          null,
-          null,
-          1,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          null,
+          4,
           null,
           null,
           1,
-          0,
-          0,
-          0,
+          4,
+          4,
+          4,
           null,
-          0,
-          0,
+          4,
+          20,
+          null,
+          null,
+          null,
+          1,
+          4,
+          4,
+          4,
+          null,
+          4,
+          32,
           null,
           null,
           null
@@ -90,7 +108,7 @@
           1,
           null,
           1,
-          0,
+          2,
           null,
           null
         ]
@@ -117,16 +135,16 @@
           null,
           null,
           1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
           null,
           null
         ]
@@ -143,13 +161,13 @@
           null,
           null,
           1,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
+          20,
           null,
           null
         ]
@@ -163,10 +181,10 @@
           null,
           null,
           1,
-          0,
-          0,
-          0,
-          0,
+          2,
+          2,
+          2,
+          2,
           null,
           null
         ]
@@ -180,10 +198,10 @@
           null,
           null,
           1,
-          0,
-          0,
-          0,
-          0,
+          32,
+          32,
+          32,
+          32,
           null,
           null
         ]
@@ -196,9 +214,9 @@
           null,
           null,
           1,
-          0,
-          0,
-          0,
+          2,
+          2,
+          2,
           null,
           null
         ]
@@ -207,17 +225,61 @@
         "lines": [
           1,
           1,
-          1,
-          1,
+          15,
+          15,
           null,
           null,
           null,
           1,
+          14,
+          null,
+          14,
+          null,
+          null,
+          1,
           1,
           null,
           1,
           null,
+          null
+        ]
+      },
+      "/Users/johnnapier/Turing/mod3/projects/sweater_weather/app/services/weather_service.rb": {
+        "lines": [
+          1,
+          1,
+          13,
+          13,
           null,
+          null,
+          null,
+          1,
+          13,
+          null,
+          13,
+          null,
+          null
+        ]
+      },
+      "/Users/johnnapier/Turing/mod3/projects/sweater_weather/app/services/unsplash_service.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
+          null,
+          null,
+          null,
+          1,
+          2,
+          null,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/johnnapier/Turing/mod3/projects/sweater_weather/app/controllers/api/v1/road_trip_controller.rb": {
+        "lines": [
           1,
           1,
           0,
@@ -318,17 +380,6 @@
         "branches": {
         }
       },
-      "/Users/johnnapier/Turing/mod3/projects/sweater_weather/app/controllers/api/v1/road_trip_controller.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
       "/Users/johnnapier/Turing/mod3/projects/sweater_weather/app/controllers/api/v1/users_controller.rb": {
         "lines": [
           0,
@@ -383,44 +434,6 @@
         "branches": {
         }
       },
-      "/Users/johnnapier/Turing/mod3/projects/sweater_weather/app/services/unsplash_service.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/johnnapier/Turing/mod3/projects/sweater_weather/app/services/weather_service.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          null,
-          0,
-          0,
-          null,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
       "/Users/johnnapier/Turing/mod3/projects/sweater_weather/app/channels/application_cable/connection.rb": {
         "lines": [
           0,
@@ -442,6 +455,6 @@
         }
       }
     },
-    "timestamp": 1646712152
+    "timestamp": 1646715209
   }
 }
