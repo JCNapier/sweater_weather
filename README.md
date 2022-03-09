@@ -119,7 +119,7 @@ To properly run the test suite you will need to run the following commands in te
   ![Screen Shot 2022-03-09 at 12 51 10 AM](https://user-images.githubusercontent.com/81737385/157396510-16969130-40d2-4ef7-b769-8d0669d74c41.png)
 
 ## Schema 
-![Screen Shot 2022-03-09 at 10 56 12 AM](https://user-images.githubusercontent.com/81737385/157502076-049c172c-4c0a-408c-9fba-c3c5e9a7dd5b.png)
+![Screen Shot 2022-03-09 at 10 57 25 AM](https://user-images.githubusercontent.com/81737385/157502279-15ecea78-60dd-474c-99d4-3be684ececbb.png)
 
 ## Project Contributors
 
