@@ -91,7 +91,7 @@ $ rake db:{drop,create,migrate,seed}
 
 ## Test Suite 
 
-To properly run the test suite you will need to run the following commands in terminal: 
+To properly run the test suite you will need to follow these instructions, and run the following commands in terminal: 
 
 1. Navigate to all three API websites, and request a new API key for each of the APIs so you can properly access the data. 
 2. Once you have the and API key for each necesssary API, navigate to the ```/config/application.yml``` file. The path is ```/config/application.yml```
