@@ -49,7 +49,6 @@ Sweater Weather is a BE application that is designed to return desired weather c
   #group :test
   gem 'capybara'
   gem 'launchy'
-  gem 'orderly'
   gem 'shoulda-matchers'
   gem 'simplecov'
   gem 'vcr'
@@ -61,6 +60,8 @@ Sweater Weather is a BE application that is designed to return desired weather c
 - [JSONAPI_Serialzier Docs](https://github.com/jsonapi-serializer/jsonapi-serializer)
 - [WebMock Docs](https://github.com/bblimke/webmock)
 - [SimpleCov Docs](https://github.com/simplecov-ruby/simplecov)
+- [Capybara Docs](https://github.com/teamcapybara/capybara)
+- [ShouldMatchers Docs](https://github.com/thoughtbot/shoulda-matchers)
 - [Factory Bot Rails Docs](https://github.com/thoughtbot/factory_bot_rails)
 - [Faker Docs](https://github.com/faker-ruby/faker)
 - [Bcrypt Docs](https://github.com/bcrypt-ruby/bcrypt-ruby)
