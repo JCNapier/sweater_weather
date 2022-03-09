@@ -51,7 +51,6 @@ end
 group :test do 
   gem 'capybara'
   gem 'launchy'
-  gem 'orderly'
   gem 'shoulda-matchers'
   gem 'simplecov'
   gem 'vcr'

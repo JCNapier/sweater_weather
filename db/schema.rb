@@ -23,5 +23,4 @@ ActiveRecord::Schema.define(version: 2022_03_06_193236) do
     t.string "api_key"
     t.index ["api_key"], name: "index_users_on_api_key", unique: true
   end
-
 end
