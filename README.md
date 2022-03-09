@@ -8,7 +8,7 @@
 
 ## Description 
 
-Sweater Weather is a BE application that is designed to return desired weather conditons for a specific area. The current weather, a five day forecast, and a 48 hour forecast are all available. Directions from one laction to another are also available. By combining the two, Sweater Weather is able to geocode a destination location based on its name, find the route to that destination, and also return what the current weather conditions will be upon arrival of the desired destination. Sweater weather consumes data from an active weather API, as well as the active mapquest API. By creating endpoints in a new API, Sweater Weather is able to serialize, and send data to the FE application.
+Sweater Weather is a BE application that is designed to return desired weather conditons for a specific area. The current weather, a five day forecast, and a 48 hour forecast are all available. Directions from one location to another are also available. By combining the two, Sweater Weather is able to geocode a destination location based on its name, find the route to that destination, and also return what the current weather conditions will be upon arrival of the desired destination. Sweater weather consumes data from an active weather API, an active mapquest API, and the Unsplash photo API. By creating endpoints in a new API, Sweater Weather is able to serialize, and send data to the FE application.
 
 ## APIs Used 
 
@@ -17,13 +17,14 @@ Sweater Weather is a BE application that is designed to return desired weather c
 - [Unsplash Photo API](https://unsplash.com/documentation)
 
 ## Learning Goals 
-- Create a functioning BE API through the consumption of other APIs
+- Create a functioning BE API with new endpoints through the consumption and exposure of other API endpoints 
 - Follow SOA convention
 - Create new endpoints
 - Use serializers to package, and send JSON responses
 - Implement sessions after user sign in
 - Test API exposure
-- Combine the consumption of multiple APIs for a single JSON response.
+- Test JSON response of newsly created endpoints
+- Combine the consumption of multiple APIs for a single JSON response
 
 ## Versions
 - Ruby 2.7.2
@@ -91,7 +92,7 @@ $ rake db:{drop,create,migrate,seed}
 
 To properly run the test suite you will need to run the following commands in terminal: 
 
-1. Navigate to both API websites, and request a new API key for each of the APIs so you can properly access the data. 
+1. Navigate to all three API websites, and request a new API key for each of the APIs so you can properly access the data. 
 2. Once you have the and API key for each necesssary API, navigate to the ```/config/application.yml``` file. The path is ```/config/application.yml```
 3. If you do not see an ```/config/application.yml``` file run the command ```shell bundle exec figaro install``` In the terminal. The ```/config/application.yml``` should appear. 
 4. Add your API keys in this format at the bottom of the ```ruby/config/application.yml``` file: 
