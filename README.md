@@ -55,10 +55,10 @@ Sweater Weather is a BE application that is designed to return desired weather c
   gem 'webmock'
 ```
 - [VCR Docs](https://github.com/vcr/vcr)
+- [WebMock Docs](https://github.com/bblimke/webmock)
 - [Figaro Docs](https://github.com/laserlemon/figaro)
 - [Faraday Docs](https://lostisland.github.io/faraday/)
 - [JSONAPI_Serialzier Docs](https://github.com/jsonapi-serializer/jsonapi-serializer)
-- [WebMock Docs](https://github.com/bblimke/webmock)
 - [SimpleCov Docs](https://github.com/simplecov-ruby/simplecov)
 - [Capybara Docs](https://github.com/teamcapybara/capybara)
 - [ShouldMatchers Docs](https://github.com/thoughtbot/shoulda-matchers)
