@@ -117,6 +117,14 @@ To properly run the test suite you will need to run the following commands in te
 - ``` POST /api/v1/road_trip``` 
   *JSON Params Passed for Road Trip Creation
   ![Screen Shot 2022-03-09 at 12 51 10 AM](https://user-images.githubusercontent.com/81737385/157396510-16969130-40d2-4ef7-b769-8d0669d74c41.png)
+  
+## End Points Exposed 
+  **All string interpolated values are dynamic values being passed in the code as query params. The param "imperial" on the weather API is the desired form of         measurement. API is metric by defualt. End Points are as they appear in the API services in the code.**
+  
+- ``` GET http://www.mapquestapi.com/geocoding/v1/address?location=#{location}```
+- ``` GET http://www.mapquestapi.com/directions/v2/route?from=#{trip_params[:from]}&to=#{trip_params[:to]}```
+- ``` GET https://api.openweathermap.org/data/2.5/onecall?lat=#{lat}&lon=#{lng}&units=imperial```
+- ``` GET https://api.unsplash.com/search/photos?page=1&query=#{city}")```
 
 ## Schema 
 ![Screen Shot 2022-03-09 at 10 57 25 AM](https://user-images.githubusercontent.com/81737385/157502279-15ecea78-60dd-474c-99d4-3be684ececbb.png)
