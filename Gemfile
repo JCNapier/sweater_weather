@@ -55,6 +55,7 @@ group :test do
   gem 'simplecov'
   gem 'vcr'
   gem 'webmock'
+  gem 'rspec_junit_formatter'
 end 
 
 
