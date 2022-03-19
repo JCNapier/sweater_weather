@@ -8,7 +8,7 @@
 
 ## Description 
 
-Sweater Weather is a BE application that is designed to return desired weather conditons for a specific area. The current weather, a five day forecast, and a 48 hour forecast are all available. Directions from one location to another are also available. By combining the two, Sweater Weather is able to geocode a destination location based on its name, find the route to that destination, and also return what the current weather conditions will be upon arrival of the desired destination. Sweater weather consumes data from an active weather API, an active mapquest API, and the Unsplash photo API. By creating endpoints in a new API, Sweater Weather is able to serialize, and send data to the FE application.
+Sweater Weather is a BE application that is designed to return desired weather conditions for a specific area. The current weather, a five day forecast, and a 48 hour forecast are all available. Directions from one location to another are also available. By combining the two, Sweater Weather is able to geocode a destination location based on its name, find the route to that destination, and also return what the current weather conditions will be upon arrival of the desired destination. Sweater weather consumes data from an active weather API, an active mapquest API, and the Unsplash photo API. By creating endpoints in a new API, Sweater Weather is able to serialize, and send data to the FE application.
 
 ## APIs Used 
 
