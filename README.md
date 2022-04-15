@@ -84,7 +84,7 @@ $ bundle install
 ```shell
 $ bundle update
 ```
-5. SRun the migrations: 
+5. Run the migrations: 
 ```shell
 $ rake db:{drop,create,migrate,seed}
 ```
